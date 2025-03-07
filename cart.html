@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="shortcut icon" href="swiggy1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <!-- Left Side: Logo & Dropdown -->
+            <div class="left">
+                <img src="swiggy1.png" alt="Swiggy" class="logo">
+                <span class="swiggy-name">Swiggy</span>
+                <select class="dropdown">
+                    <option>Select Location</option>
+                    <option>New York</option>
+                    <option>Hyderabad</option>
+                    <option>Los angels</option>
+                    <option>Chennai</option>
+                    <option>Vijaywada</option>
+                    <option>Tirupati</option>
+                </select>
+            </div>
+            
+            <!-- Right Side: Navigation Links -->
+            <nav class="nav">
+                <a href="offers.html"><i class="fa-solid fa-percent"></i>Offers</a>
+                <a href="help.html"><i class="fa-solid fa-life-ring"></i>Help</a>
+                <a href="sigin.html">
+                <i class="fa-solid fa-user"></i>Sign In</a>
+                <a href="cart.html" class="cart">🛒cart</a>
+                <input type="text" class="search-box" placeholder="Search...">
+                <a href="#" class="search">🔍</a>
+            </nav>
+        </div>
+    </header>
+    <!-- cart -->
+    <div class="cart-container">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="pizza2.jpg" alt="Pizza" class="cart-img">
+                <div class="cart-details">
+                    <h3>Pizza</h3>
+                    <p>$12.99</p>
+                    <label for="">Quantity:</label>
+                    <input type="number" value="1" min="1" class="cart-quantity">
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="cart-item">
+                <img src="burger.jpg" alt="Burger" class="cart-img">
+                <div class="cart-details">
+                    <h3>Burger</h3>
+                    <p>$8.99</p>
+                    <label for="">Quantity:</label>
+                    <input type="number" value="1" min="1" class="cart-quantity">
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+            <div class="cart-item">
+                <img src="Biryani.jpg" alt="Biryani" class="cart-img">
+                <div class="cart-details">
+                    <h3>Biryani</h3>
+                    <p>$10.0</p>
+                    <label for="">Quantity:</label>
+                    <input type="number" value="1" min="1" class="cart-quantity">
+                </div>
+                <button class="remove-item">Remove</button>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3>Total: <span>$31.98</span></h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <!-- Footer class -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Top Restaurant</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="sigin.html">Sign In</a></li>
+                    <li><a href="cart.html">cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: varshini21@swiggy.com</li>
+                    <li>Phone: +1 234 567 890</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

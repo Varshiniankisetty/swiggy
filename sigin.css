@@ -1,0 +1,80 @@
+/* Sign-in Page */
+.signin-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.signin-page h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-form label {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signin-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signin-form button {
+    padding: 12px;
+    background-color: #ff5200;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.signin-form button:hover {
+    background-color: #ff5200;
+}
+
+.signin-form p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signin-form a {
+    color: #fc8019;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signin-form a:hover {
+    color: #e26d0b;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

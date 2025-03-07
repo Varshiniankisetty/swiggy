@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="shortcut icon" href="swiggy1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="help.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Left Side: Logo & Dropdown -->
+            <div class="left">
+                <img src="swiggy1.png" alt="Swiggy" class="logo">
+                <span class="swiggy-name">Swiggy</span>
+                <select class="dropdown">
+                    <option>Select Location</option>
+                    <option>New York</option>
+                    <option>Hyderabad</option>
+                    <option>Los angels</option>
+                    <option>Chennai</option>
+                    <option>Vijaywada</option>
+                    <option>Tirupati</option>
+                </select>
+            </div>
+            
+            <!-- Right Side: Navigation Links -->
+            <nav class="nav">
+                <a href="offers.html"><i class="fa-solid fa-percent"></i>Offers</a>
+                <a href="help.html"><i class="fa-solid fa-life-ring"></i>Help</a>
+                <a href="sigin.html">
+                <i class="fa-solid fa-user"></i>Sign In</a>
+                <a href="cart.html" class="cart">🛒cart</a>
+                <input type="text" class="search-box" placeholder="Search...">
+                <a href="#" class="search">🔍</a>
+            </nav>
+        </div>
+    </header>
+    <!-- create help section form which is having name feild,email field and issuse type and issue description -->
+    <div class="help">
+        <h2>Help & Support</h2>
+        <form class="help-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="issue-type">Issue Type:</label>
+            <select id="issue-type" name="issue-type">
+                <option>Order Issue</option>
+                <option>Payment Issue</option>
+                <option>Delivery Issue</option>
+                <option>Other</option>
+            </select>
+            
+            <label for="issue-description">Issue Description:</label>
+            <textarea id="issue-description" name="issue-description" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Top Restaurant</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="sigin.html">Sign In</a></li>
+                    <li><a href="cart.html">cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: varshini21t@swiggy.com</li>
+                    <li>Phone: +1 234 567 890</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

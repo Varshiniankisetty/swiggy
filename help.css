@@ -1,0 +1,57 @@
+.help {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.help h2 {
+    text-align: center;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.help-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.help-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.help-form input,
+.help-form select,
+.help-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.help-form button {
+    background: #ff6600;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.help-form button:hover {
+    background: #e65c00;
+}
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+    .help {
+        padding: 15px;
+    }
+}

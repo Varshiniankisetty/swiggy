@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background: linear-gradient(to right, #ff5200, #ff5200);
+    padding: 15px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.swiggy-name {
+    font-size: 28px; /* Increased font size */
+    font-weight: bold;
+    margin-left: -5px; /* Adjust alignment */
+}
+
+.dropdown {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+    }
+
+.nav a:hover {
+    transform: scale(1.1);
+}
+
+.search-box {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
